@@ -13,6 +13,7 @@
 		93E594B01E71301B000E91E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E594AE1E71301B000E91E4 /* Main.storyboard */; };
 		93E594B21E71301B000E91E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E594B11E71301B000E91E4 /* Assets.xcassets */; };
 		93E594B51E71301B000E91E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E594B31E71301B000E91E4 /* LaunchScreen.storyboard */; };
+		93E594BE1E713040000E91E4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E594BD1E713040000E91E4 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		93E594B11E71301B000E91E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93E594B41E71301B000E91E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93E594B61E71301B000E91E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93E594BC1E713040000E91E4 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		93E594BD1E713040000E91E4 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				93E594B31E71301B000E91E4 /* LaunchScreen.storyboard */,
 				93E594B61E71301B000E91E4 /* Info.plist */,
 				93E594A51E71301B000E91E4 /* Supporting Files */,
+				93E594BC1E713040000E91E4 /* Person.h */,
+				93E594BD1E713040000E91E4 /* Person.m */,
 			);
 			path = ObjectInitializer;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				93E594AD1E71301B000E91E4 /* ViewController.m in Sources */,
 				93E594AA1E71301B000E91E4 /* AppDelegate.m in Sources */,
+				93E594BE1E713040000E91E4 /* Person.m in Sources */,
 				93E594A71E71301B000E91E4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
